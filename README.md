@@ -1,1 +1,1 @@
-# communicate-with-ChatGPT
+# Communicate-with-ChatGPT
