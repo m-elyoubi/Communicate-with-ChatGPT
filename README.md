@@ -8,14 +8,14 @@ To run my appication called chat-with-ChatGPT just following these steps:
     
     1- Clone this repository to your local machine.
     2- Open the project in your favorite IDE (such as IntelliJ IDEA).
-    3- Open application.properties file,then you want to change value of openai.apiKey="here your apikey" by your apikey
+    3- Open #application.properties file,then you want to change value of #openai.apiKey="here your apikey" by your apikey
     3- Build the project using Maven. You can do this from within your IDE or from the command line using mvn clean install.
     4- Run the Spring Boot application by running the Application.java file or using the spring-boot:run Maven goal.
     5- The application will be accessible at http://localhost:8080.
 
 ## Running the Application on Docker
    
-    1- Clone this repository to your local machine.
+    1- Clone this repository to your local machine. #git clone path
     2- Navigate to the root directory of the project.
     3- Build the Docker image using the following command: docker build -t <image-name> .
     Replace <image-name> with the name you want to give to your Docker image.
