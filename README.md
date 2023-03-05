@@ -1,5 +1,4 @@
 # communicate-with-ChatGPT
-# Communicate-with-ChatGPT
 To run my appication called chat-with-ChatGPT just following these steps:
 ## Prerequisites
     1-Install Java 17 on your machine, if not already installed.
@@ -39,5 +38,23 @@ To run my appication called chat-with-ChatGPT just following these steps:
     6- Click Send to send the request and see the response.
     7- You should now see the response from the application in Postman.
     8- Then you should now see the question and response save in csv file .
+ 
+ ## Project architecture
+   
+Here are the package structures that are commonly used in a Spring Boot chat application:
+
+**Package Model:** 
+This package contains the data models for the application, such as ChatRequest class for send a question and ChatResponse class for receice a response.
+Package Controller:
+This package contains the REST endpoints for the application, which handle incoming requests from the user interface and then store a question and response in csv file (question.csv).
+
+**Pckage Service:**
+This package contains the business logic for the application, such as handling user authentication and sending messages.
+
+**application.properties:**
+This file for declare openai.apiKey and endpointUrl
+
+    
+
   
   
