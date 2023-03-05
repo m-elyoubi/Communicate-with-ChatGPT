@@ -17,14 +17,14 @@ To run my appication called chat-with-ChatGPT just following these steps:
    
     1. Clone this repository to your local machine. #git clone path
     2. Navigate to the root directory of the project.
-    3. Build the Docker image using the following command: **__docker build -t <image-name> .__**
+    3. Build the Docker image using the following command: ***docker build -t <image-name> .***
     Replace <image-name> with the name you want to give to your Docker image.
-    4. Once the image is built, run the Docker container using the following command: docker run -p 8080:8080 -v <local-path>:<container-path> <image-name>
+    4. Once the image is built, run the Docker container using the following command: ***docker run -p 8080:8080 -v <local-path>:<container-path> <image-name>***
     Replace <image-name> with the name you gave to the Docker image in step 3.
     Replace <local-path> with the path to a local directory you want to map to the container.
     Replace <container-path> with the path to the directory inside the container where you want to map the local directory.
     5. This will start the container and map port 8080 inside the container to port 8080 on your machine.
-    6. The application will be accessible at http://localhost:8080
+    6. The application will be accessible at***http://localhost:8080***
   
 ## Testing the Application with Postman
    
