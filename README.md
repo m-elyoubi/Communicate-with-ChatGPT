@@ -19,12 +19,12 @@ To run my appication called chat-with-ChatGPT just following these steps:
     2. Navigate to the root directory of the project.
     3. Build the Docker image using the following command: ***docker build -t <image-name> .***
     Replace <image-name> with the name you want to give to your Docker image.
-    4. Once the image is built, run the Docker container using the following command: ***docker run -p 8080:8080 -v <local-path>:<container-path> <image-name>***
+    4. Once the image is built, run the Docker container using the following command: docker run -p 8080:8080 -v <local-path>:<container-path> <image-name>
     Replace <image-name> with the name you gave to the Docker image in step 3.
     Replace <local-path> with the path to a local directory you want to map to the container.
     Replace <container-path> with the path to the directory inside the container where you want to map the local directory.
     5. This will start the container and map port 8080 inside the container to port 8080 on your machine.
-    6. The application will be accessible at***http://localhost:8080***
+    6. The application will be accessible at http://localhost:8080
   
 ## Testing the Application with Postman
    
@@ -60,11 +60,11 @@ This file is used to declare openai.apiKey and endpointUrl
 **Unit/integration tests (unit test using JUnit)**
 
 **TestController:**
-This package is used to test the functionality of the Controller package. Controllers are responsible for handling incoming requests and returning responses to the client
+This package is used to test the functionality of the ***Controller*** package. Controllers are responsible for handling incoming requests and returning responses to the client
 **TestModel:**
-This package is used to test the functionality of the Model package. Models are used to represent the data such as question and response.
+This package is used to test the functionality of the ***Model*** package. Models are used to represent the data such as question and response.
 **TestService:** 
-This package is used to test the functionality of the Service package. Services are used to perform business logic and interact with data sources.
+This package is used to test the functionality of the ***Service*** package. Services are used to perform business logic and interact with data sources.
 
     
 
